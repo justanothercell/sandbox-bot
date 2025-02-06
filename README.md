@@ -3,7 +3,7 @@ Connect your local language sandbox to the bot and evaluate code snippets on dis
 
 ## Quickstart
 The server was tested with python 3.12
-### COmmand usage
+### Command usage
 - `/client_key <language_name> <short_name?>` get a key for your language bot. This only works if you have the `@Lang Cannel Owner` role on the [r/ProgrammingLanguages](https://www.reddit.com/r/ProgrammingLanguages/) discord. The response ot this message is not visible to others.
 - `/eval <language> <expression> <display?>` evaluate an expression
 - `run` (message rightclick command) run the code snippet and return an ephemeral response
