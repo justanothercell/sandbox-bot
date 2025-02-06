@@ -115,5 +115,5 @@ class ClientHookServer:
     async def kill_client_conn(self, key: str):
         async with self.clients_lock:
             if key in self.clients:
+                await self.clients[key].socket.close()
                 self.clients[key].socket.abort_pings()
-                self.clients[key].socket.close()
