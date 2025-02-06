@@ -1,4 +1,9 @@
 # Discord bot for programming language sandbox clients
+
+> [!WARNING]  
+> This bot is currently not enavled on the r/ProgrammingLanguage discord.
+> It should however be fairly easy to adapt the bot to your usecase
+
 Connect your local language sandbox to the bot and evaluate code snippets on discord!
 
 ## Quickstart
